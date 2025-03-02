@@ -47,4 +47,4 @@ pip install -r requirements.txt
 The expected output: print the classification probabilities for  keratitis, other corneal abnormalities (Other), and normal corneas (Normal).
 
 
-* Please feel free to contact us for any questions or comments: Jiewei Jiang, E-mail: jiangjw924@126.com or XIN Yu, E-mail: xinyu2918@163.com.
+* Please feel free to contact us for any questions or comments: Jiewei Jiang, E-mail: jiangjw924@126.com or Yu Xin, E-mail: xinyu2918@163.com.
