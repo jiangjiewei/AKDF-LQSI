@@ -2,7 +2,7 @@
 # create time: 2025.2.6
 
 # Introduction
-This repository contains the source code for the Automated Keratitis Diagnosis Farmework for Low-Quality Slit-Lamp images (AKDF-LQSI). 
+This repository contains the source code for the Automated Keratitis Diagnosis Framework for Low-Quality Slit-Lamp images (AKDF-LQSI). 
 This method effectively improves the accuracy of automatic keratitis diagnosis on low-quality slit-lamp images by leveraging the SCUNet and GCT-DenseNet121 models.
 
 # Prerequisites
@@ -49,4 +49,5 @@ The expected output: print the classification probabilities for  keratitis, othe
 
 
 * Please feel free to contact us for any questions or comments: Jiewei Jiang, E-mail: jiangjiewei@xupt.edu.cn or Yu Xin, E-mail: xinyu2918@163.com.
+
 
