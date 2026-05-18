@@ -45,8 +45,8 @@ pip install -r requirements.txt
 * SCUNet + DenseNet121 = AKDF_SCUNet
 * SCUNet+GCT_DenseNet121 = AKDF_LQSI
 # Model weights
-* The file "model/GCT-DenseNet121_model_best.pth.tar" in /AKDF-LQSI-Source is used for the GCT-DenseNet121 model testing.
-* The file "model/SCUNet_model_best.pth" in /AKDF-LQSI-Source is used for the SCUNet model testing.
+* The file "GCT-DenseNet121_model_best.pth.tar" located in the /AKDF-LQSI-Source/models/ directory corresponds to the GCT-DenseNet121 model, which is used for       classification tasks including keratitis, normal cornea, and other cornea abnormalities.
+* The file "SCUNet_model_best.pth" located in the /AKDF-LQSI-Source/models/ directory corresponds to the SCUNet model, which is used to enhance low-quality slit-    lamp (LQS) images into high-quality slit-lamp (HQS) images.
 
 The expected output: print the classification probabilities for  keratitis, other cornea abnormalities (Other), and normal cornea (Normal).
 
