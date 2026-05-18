@@ -41,6 +41,10 @@ pip install -r requirements.txt
 * The file "train_scunet.py" in /AKDF-LQSI-Source is used for the SCUNet model training.Farmework
 * The file "test.py" in /AKDF-LQSI-Source is used for the SCUNet model testing.
 * The file "SGCT_DenseNet_train_or_test.py" in /AKDF-LQSI-Source contains is used for the GCT-DenseNet121 model training and testing.
+# Ablation experiment strategy
+* GCT_DenseNet121 + Classification_Task = AKDF_GCT
+* SCUNet + DenseNet121 = AKDF_SCUNet
+* SCUNet+GCT_DenseNet121 = AKDF_LQSI
 
 
 
