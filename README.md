@@ -42,8 +42,9 @@ pip install -r requirements.txt
 * The file "test.py" in /AKDF-LQSI-Source is used for the SCUNet model testing.
 * The file "SGCT_DenseNet_train_or_test.py" in /AKDF-LQSI-Source contains is used for the GCT-DenseNet121 model training and testing.
 # Ablation experiment strategies
-* SCUNet + DenseNet121 = AKDF_SCUNet
-* SCUNet+GCT_DenseNet121 = AKDF_LQSI
+* AKDF-GCT refers to the model that employs only the GCT-based classifier (GCT-DenseNet121).
+* AKDF-SCUNet refers to the model that uses only the SCUNet-based enhancement module (SCUNet + DenseNet121).
+* AKDF-LQSI denotes the proposed framework that integrates both components, leveraging SCUNet for low-quality image enhancement and GCT-DenseNet121 for              classification.
 # Model weights
 * The file "GCT-DenseNet121_model_best.pth.tar" located in the /AKDF-LQSI-Source/models/ directory corresponds to the GCT-DenseNet121 model, which is used for       classification tasks including keratitis, normal cornea, and other cornea abnormalities.
 * The file "SCUNet_model_best.pth" located in the /AKDF-LQSI-Source/models/ directory corresponds to the SCUNet model, which is used to enhance low-quality slit-    lamp (LQS) images into high-quality slit-lamp (HQS) images.
