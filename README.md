@@ -47,7 +47,7 @@ pip install -r requirements.txt
 * AKDF-LQSI denotes the proposed framework that integrates both components, leveraging SCUNet for low-quality image enhancement and GCT-DenseNet121 for              classification.
 # Model weights
 * The file "GCT-DenseNet121_model_best.pth.tar" located in the /AKDF-LQSI-Source/models/ directory corresponds to the GCT-DenseNet121 model, which is used for       classification tasks including keratitis, normal cornea, and other cornea abnormalities.
-* The file "SCUNet_model_best.pth" located in the /AKDF-LQSI-Source/models/ directory corresponds to the SCUNet model, which is used to enhance low-quality slit-   lamp (LQS) images into high-quality slit-lamp (HQS) images.
+* The file "SCUNet_model_best.pth" located in the /AKDF-LQSI-Source/models/ directory corresponds to the SCUNet model, which is used to enhance low-quality slit-lamp (LQS) images into high-quality slit-lamp (HQS) images.
 
 The expected output: print the classification probabilities for  keratitis, other cornea abnormalities (Other), and normal cornea (Normal).
 
