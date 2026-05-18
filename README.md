@@ -1,5 +1,5 @@
 # AKDF-LQSI-Source: Automated keratitis diagnosis framework for low-quality slit-lamp images
-# Created: 2025-02-06; Modified: 2026-05-18
+# Created: 2025-02-06; Last modified: 2026-05-18
 
 # Introduction
 This repository contains the source code for the Automated Keratitis Diagnosis Framework for Low-Quality Slit-Lamp images (AKDF-LQSI). 
