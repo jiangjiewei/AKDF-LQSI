@@ -45,8 +45,9 @@ pip install -r requirements.txt
 * GCT_DenseNet121 + Classification_Task = AKDF_GCT
 * SCUNet + DenseNet121 = AKDF_SCUNet
 * SCUNet+GCT_DenseNet121 = AKDF_LQSI
-
-
+# Model weights
+* The file "model/GCT-DenseNet121_model_best.pth.tar" in /AKDF-LQSI-Source contains is used for the GCT-DenseNet121 model and testing.
+* The file "model/SCUNet_model_best.pth" in /AKDF-LQSI-Source is used for the SCUNet model testing.
 
 The expected output: print the classification probabilities for  keratitis, other cornea abnormalities (Other), and normal cornea (Normal).
 
