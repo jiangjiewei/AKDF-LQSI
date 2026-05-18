@@ -1,5 +1,6 @@
 # AKDF-LQSI-Source: Automated keratitis diagnosis framework for low-quality slit-lamp images
-# create time: 2025.2.6
+# Created: 2025-02-06
+# Modified: 2026-05-18
 
 # Introduction
 This repository contains the source code for the Automated Keratitis Diagnosis Framework for Low-Quality Slit-Lamp images (AKDF-LQSI). 
@@ -38,7 +39,7 @@ pip install -r requirements.txt
 
 # Usage
 * The file "create_lowquality_data.py" in /AKDF-LQSI-Source is used to generate GLQS(generated low-quality slit-lamp) images.
-* The file "train_scunet.py" in /AKDF-LQSI-Source is used for the SCUNet model training.Farmework
+* The file "train_scunet.py" in /AKDF-LQSI-Source is used for the SCUNet model training.
 * The file "test.py" in /AKDF-LQSI-Source is used for the SCUNet model testing.
 * The file "SGCT_DenseNet_train_or_test.py" in /AKDF-LQSI-Source contains is used for the GCT-DenseNet121 model training and testing.
 # Ablation experiment strategies
